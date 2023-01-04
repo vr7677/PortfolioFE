@@ -9,6 +9,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { ContentComponent } from './components/content/content.component';
+import { DarkModeComponent } from './components/dark-mode/dark-mode.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContentComponent } from './components/content/content.component';
     RegisterComponent,
     UserProfileComponent,
     NavBarComponent,
-    ContentComponent
+    ContentComponent,
+    DarkModeComponent
   ],
   imports: [
     BrowserModule,
